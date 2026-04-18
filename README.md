@@ -1,6 +1,6 @@
 # 🌧️ Rainfall Prediction for Agriculture (DS Project)
 
-## 📌 Project Overview
+##  Project Overview
 
 This project applies **data science and machine learning techniques** to analyze historical rainfall data in India (1901–2015) and build predictive models to support agricultural and urban planning decisions.
 
@@ -8,16 +8,16 @@ Using the **CRISP-DM methodology**, the project explores long-term rainfall patt
 
 ---
 
-## 🎯 Business Objectives
+##  Business Objectives
 
 ### Q1: Crop Planning (Prediction Task)
 
 Predict whether a region will experience:
 
-- 🌵 Drought conditions (below-normal rainfall)
-- 🌧️ Heavy rainfall conditions (above-normal rainfall)
+-  Drought conditions (below-normal rainfall)
+-  Heavy rainfall conditions (above-normal rainfall)
 
-📌 Goal: Support farmers in crop selection, irrigation planning, and risk reduction.
+ Goal: Support farmers in crop selection, irrigation planning, and risk reduction.
 
 ---
 
@@ -25,11 +25,11 @@ Predict whether a region will experience:
 
 Analyze whether extreme rainfall events have increased over the past 30 years.
 
-📌 Goal: Support flood risk management and infrastructure planning.
+Goal: Support flood risk management and infrastructure planning.
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 - **Source:** Rainfall in India (1901–2015)
 - **Type:** Time-series / regional rainfall data
@@ -37,7 +37,7 @@ Analyze whether extreme rainfall events have increased over the past 30 years.
 
 ---
 
-## 🧠 Machine Learning Approach
+##  Machine Learning Approach
 
 ### Problem Type:
 
@@ -53,7 +53,7 @@ Analyze whether extreme rainfall events have increased over the past 30 years.
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 Rainfall-Prediction-for-Agriculture-DS/
 │
@@ -120,7 +120,7 @@ Explored rainfall trends, missing values, and extreme event patterns.
 
 ---
 
-## 📈 Key Features
+## Key Features
 
 - Detection of rainfall anomalies (drought / heavy rainfall)
 - Time-series analysis of extreme weather events
@@ -130,7 +130,7 @@ Explored rainfall trends, missing values, and extreme event patterns.
 
 ---
 
-## ⚙️ Technologies Used
+## Technologies Used
 
 - Python 🐍
 - Pandas / NumPy
@@ -141,7 +141,7 @@ Explored rainfall trends, missing values, and extreme event patterns.
 
 ---
 
-## 🚀 How to Run the Project
+## How to Run the Project
 
 ### 1. Clone the repository
 
@@ -152,7 +152,7 @@ Explored rainfall trends, missing values, and extreme event patterns.
 Open Jupyter or VS Code and execute notebooks in order:
 
 01 → 02 → 03 → 04 → 05 → 06
-📌 Model Deployment
+Model Deployment
 
 The trained model is saved using:
 
@@ -163,17 +163,17 @@ To load the model:
 
 model = joblib.load("models/rainfall_model.pkl")
 
-⚠️ Limitations
+## Limitations
 Limited external climate features (temperature, ENSO, etc.)
 Historical data may not fully reflect modern climate change dynamics
 Class imbalance in extreme rainfall events
 
-🔮 Future Improvements
+## Future Improvements
 Integrate weather APIs for real-time prediction
 Add deep learning models (LSTM for time-series)
 Improve geospatial analysis using GIS tools
 Deploy as a web application (Flask/FastAPI)
 
-👨‍💻 Author
+## Author
 
 Mohamed Gdoura
